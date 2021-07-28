@@ -210,6 +210,7 @@ body .navi {
 }
 .page2 {
   display: flex;
+  justify-content: space-between;
 }
 
 .about {
@@ -223,6 +224,7 @@ body .navi {
 
 .hobbies-skills {
   display: flex;
+  justify-content: space-between;
 }
 
 .page2 img {
@@ -252,7 +254,7 @@ body .navi {
 }
 
 .Skills-content {
-  width: 50%;
+  width: 500px;
   min-height: 100%;
 
   padding: 30px;
@@ -285,4 +287,12 @@ footer {
 }
 .icons1 {
   color: black;
+}
+
+.info {
+  display: flex;
+  /* justify-content: right; */
+  background-color: blueviolet;
+  text-transform: capitalize;
+  text-decoration: white;
 }
